@@ -1,11 +1,10 @@
-import 'regenerator-runtime'
 import {
-    ensureNxProject,
+    checkFilesExist, ensureNxProject,
     runCommandAsync,
     runNxCommandAsync,
-    uniq,
-    checkFilesExist,
+    uniq
 } from '@nrwl/nx-plugin/testing'
+import 'regenerator-runtime'
 
 jest.setTimeout(60000)
 

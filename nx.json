@@ -1,5 +1,5 @@
 {
-    "npmScope": "wanews",
+    "npmScope": "asurraa",
     "affected": {
         "defaultBase": "master"
     },
@@ -23,33 +23,12 @@
         }
     },
     "projects": {
-        "nx-esbuild": {
-            "tags": []
-        },
-        "nx-esbuild-e2e": {
-            "tags": [],
-            "implicitDependencies": ["nx-esbuild"]
-        },
         "nx-vite": {
             "tags": []
         },
         "nx-vite-e2e": {
             "tags": [],
             "implicitDependencies": ["nx-vite"]
-        },
-        "pulumi": {
-            "tags": []
-        },
-        "pulumi-e2e": {
-            "tags": [],
-            "implicitDependencies": ["pulumi"]
-        },
-        "typescript-project-references": {
-            "tags": []
-        },
-        "typescript-project-references-e2e": {
-            "tags": [],
-            "implicitDependencies": ["typescript-project-references"]
         }
     },
     "targetDependencies": {

@@ -17,11 +17,7 @@
         "strict": true,
         "esModuleInterop": true,
         "paths": {
-            "@wanews/nx-esbuild": ["libs/nx-esbuild/src/index.ts"],
-            "@wanews/nx-pulumi": ["libs/pulumi/src/index.ts"],
-            "@wanews/typescript-project-references": [
-                "libs/typescript-project-references/src/index.ts"
-            ]
+            "@asurraa/nx-esbuild": ["libs/nx-esbuild/src/index.ts"]
         }
     },
     "exclude": ["node_modules", "tmp"]

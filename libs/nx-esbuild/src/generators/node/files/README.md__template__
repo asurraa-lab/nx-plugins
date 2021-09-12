@@ -1,5 +1,0 @@
-# <%= projectName %>
-
-## Running locally
-
-> `nx serve <%= projectName %>`
