@@ -16,9 +16,7 @@
         "baseUrl": ".",
         "strict": true,
         "esModuleInterop": true,
-        "paths": {
-            "@asurraa/nx-esbuild": ["libs/nx-esbuild/src/index.ts"]
-        }
+        "paths": {}
     },
     "exclude": ["node_modules", "tmp"]
 }
